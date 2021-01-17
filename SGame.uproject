@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{389681BF-48BE-22C8-E6FE-3BA376C18541}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"IOS",
+		"WindowsNoEditor"
+	]
+}
