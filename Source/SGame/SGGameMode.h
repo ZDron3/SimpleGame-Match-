@@ -3,8 +3,8 @@
 #pragma once
 
 #include "GameFramework/GameMode.h"
-#include "Messaging.h"
-
+#include "MessageEndpoint.h"
+#include "MessageEndpointBuilder.h"
 #include "SGTileBase.h"
 #include "SGameMessages.h"
 #include "SGLinkLine.h"

@@ -3,7 +3,8 @@
 #pragma once
 
 #include "GameFramework/PlayerController.h"
-#include "Messaging.h"
+#include "MessageEndpoint.h"
+#include "MessageEndpointBuilder.h"
 #include "SGameMessages.h"
 #include "SGPlayerController.generated.h"
 

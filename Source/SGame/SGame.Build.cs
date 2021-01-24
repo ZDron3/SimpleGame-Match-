@@ -6,6 +6,9 @@ public class SGame : ModuleRules
 {
 	public SGame(ReadOnlyTargetRules Target) :base (Target )
 	{
+
+        bEnableUndefinedIdentifierWarnings = false;
+
         PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore", "UMG","Paper2D" });
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Paper2D", "UMG" });

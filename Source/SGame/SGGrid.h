@@ -5,7 +5,8 @@
 #include "GameFramework/Actor.h"
 
 #include "SGTileBase.h"
-#include "Messaging.h"
+#include "MessageEndpoint.h"
+#include "MessageEndpointBuilder.h"
 #include "SGameMessages.h"
 #include "SGLevelTileManager.h"
 #include "SGLinkLine.h"

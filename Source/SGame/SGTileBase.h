@@ -6,7 +6,8 @@
 #include "PaperSprite.h"
 #include "PaperSpriteComponent.h"
 #include "GameFramework/Actor.h"
-#include "Messaging.h"
+#include "MessageEndpoint.h"
+#include "MessageEndpointBuilder.h"
 #include "SGameMessages.h"
 #include "iTween/iTInterface.h"
 
@@ -105,7 +106,6 @@ public:
 	void TileRelease_Mouse(AActor* TouchedActor, FKey ButtonPressed);
 
 	/** Is current tile selecatable*/
-	UFUNCTION()
 	bool IsSelectable() const;
 
 	void SetGridAddress(int32 NewLocation);

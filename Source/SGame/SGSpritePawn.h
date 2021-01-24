@@ -4,7 +4,8 @@
 
 #include "PaperSpriteComponent.h"
 #include "GameFramework/Pawn.h"
-#include "Messaging.h"
+#include "MessageEndpoint.h"
+#include "MessageEndpointBuilder.h"
 #include "SGameMessages.h"
 
 #include "SGSpritePawn.generated.h"

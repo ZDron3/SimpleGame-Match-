@@ -3,9 +3,9 @@
 #pragma once
 
 #include "GameFramework/CheatManager.h"
-#include "Messaging.h"
+#include "MessageEndpoint.h"
 #include "SGameMessages.h"
-
+#include "MessageEndpointBuilder.h"
 #include "FAsyncQueue.h"
 
 #include "SGCheatManager.generated.h"

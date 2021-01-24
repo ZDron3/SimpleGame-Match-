@@ -5,8 +5,8 @@
 #include "GameFramework/Actor.h"
 #include "PaperSprite.h"
 #include "PaperSpriteComponent.h"
-#include "Messaging.h"
-
+#include "MessageEndpoint.h"
+#include "MessageEndpointBuilder.h"
 #include "SGameMessages.h"
 #include "SGTileBase.h"
 
